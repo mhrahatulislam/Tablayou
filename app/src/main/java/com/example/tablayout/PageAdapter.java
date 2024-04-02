@@ -24,6 +24,8 @@ public class PageAdapter extends FragmentStatePagerAdapter {
             case 2: return new BlankFragment3();
             case 3: return new BlankFragment4();
         }
+
+        Readable.hasil kdial;
         return null;
     }
 
